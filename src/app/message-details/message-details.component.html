@@ -1,0 +1,22 @@
+  <table >
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Message</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>{{index+1}}</td>
+      <td>{{ usr.name }}</td>
+      <td>{{ usr.email }}</td>
+      <td>{{ usr.message }}</td>
+    </tr>
+    <tr>
+      <button type="button" (click)="deletMessage()" >delete</button>
+    </tr>
+    </tbody>
+  </table>
+

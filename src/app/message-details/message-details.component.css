@@ -1,0 +1,33 @@
+/* Table Styles */
+table {
+  width: 100%; /* Make the table fill its container */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 20px; /* Add space between form and table */
+}
+
+/* Table Header Styles */
+thead {
+  background-color: #3498db; /* Header background color */
+  color: #fff; /* Header text color */
+}
+
+/* Table Header Cell Styles */
+th {
+  padding: 10px; /* Padding for header cells */
+  text-align: left; /* Align text to the left */
+}
+
+/* Table Body Styles */
+tbody {
+  border-top: 2px solid #3498db; /* Add a top border below the header */
+}
+
+/* Table Body Row Styles */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+/* Table Body Cell Styles */
+td {
+  padding: 10px; /* Padding for body cells */
+}

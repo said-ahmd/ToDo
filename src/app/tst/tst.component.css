@@ -1,0 +1,62 @@
+/* Form Container Styles */
+.form-container {
+  max-width: 500px; /* Adjusted width for better visibility */
+  margin: 50px auto; /* Centering the form */
+  padding: 30px;
+  border: 2px solid #3498db; /* Changed border color */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+/* Heading Styles */
+h2 {
+  text-align: center;
+  color: #333; /* Darkened the heading color */
+  margin-bottom: 20px; /* Increased space below the heading */
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 20px; /* Increased spacing between form groups */
+}
+
+/* Label Styles */
+label {
+  display: block; /* Display labels as block elements */
+  font-weight: bold; /* Bold labels */
+  color: #555; /* Darkened label color */
+}
+
+/* Input and Textarea Styles */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Make inputs and textarea full width */
+  padding: 10px; /* Increased padding */
+  border: 1px solid #ccc; /* Light border color */
+  border-radius: 5px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Submit Button Styles */
+button[type="submit"] {
+  width: 100%; /* Make button full width */
+  padding: 10px; /* Increased padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #3498db; /* Button color */
+  color: #fff; /* Text color */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Form Data Styles */
+h3 {
+  color: #333; /* Darkened heading color */
+}
+
+/* Additional Styles */
+p {
+  margin: 10px 0; /* Adjusted margin for paragraphs */
+}
+
